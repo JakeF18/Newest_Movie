@@ -1,0 +1,114 @@
+#wrapper{
+	box-shadow: 5px 5px 5px #000000;
+	width: 95%;
+	margin: auto;
+	min-width: 860px;
+	max-width: 2048px;
+	background-color: #252323}
+
+body{
+	background-image: linear-gradient( to top, #5C7457, #9EE493  );
+	background-repeat: no-repeat;
+	background-color: #5C7457;
+}
+
+main{padding-left: 0;
+	padding-bottom: 2em;
+	padding-right: 0;
+	padding-left: 3em;
+	padding-right: 2em;
+	display: block;
+	margin-left: 200px;
+	padding-top: 0;
+	background-color: #E2E4F6; 
+	overflow: auto;
+	}
+
+@font-face {
+	font-family: JoseSemiBold;
+	src: url(Josefin_Sans/JosefinSans-SemiBold.ttf);
+}
+
+nav { 	text-align: center;
+	   font-size: 2em;
+	   padding-bottom: 5xp;
+	   float: left; 
+	   width: 200px;
+	   background-color: #252323;
+	   font-family: JoseSemiBold;
+	
+}
+
+nav a{
+	 text-decoration: none;
+	 color: #5C7457;
+}
+
+nav a:hover{
+  color:  #366d2b;  
+}
+
+nav ul{
+list-style-type: none;
+padding-left: 0;
+}
+
+
+header{ background-color: #7D7E75; 
+		color:  #252323;  
+		
+		  padding-top: 5px;
+		  padding-bottom: 5px;
+		  background-image: url(Pictures/Clapper.jpg);
+		  background-repeat: no-repeat;
+		  padding-left: 240px;
+		  height: 120px;
+
+		font-family: FractulMed;
+		font-size: 90px;
+		text-align:center ;
+		letter-spacing: 2px;
+		  }
+
+@font-face {
+		font-family: "FractulMed";
+		src: url(Fractul/Fractul-Medium.ttf);
+		}
+
+
+header a{
+	text-decoration: none; 
+	color: #4e6449;
+}
+
+header a:hover{
+ color: #317423;  
+}
+
+
+img{border: 3px ridge #000000;}
+
+h2{font-family: Outfit_Light;}
+
+@font-face {
+	font-family: Outfit_Light;
+	src: url(Outfit/Outfit-Light.ttf);
+}
+
+h4{font-family: Outfit_Thin;	}
+
+@font-face {
+	font-family: Outfit_Thin;
+	src: url(Outfit/Outfit-Thin.ttf);
+}
+
+p, sub{font-family: Outfit_ExLight;	
+font-weight: 500;}
+
+@font-face {
+	font-family: Outfit_ExLight;
+	src: url(Outfit/Outfit-ExtraLight.ttf);
+}
+
+h1{font-family: Outfit_ExLight;	
+	font-weight: 500;}
